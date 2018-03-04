@@ -94,21 +94,77 @@ The four plots that you will need to construct are shown below.
 
 ### Plot 1
 
+* Step 1: Set your Project Folder as working Directory
+    * setwd(this.dir <- dirname(sys.frame(1)$ofile))
+* Step 1: Download Data from specified URL
+* Step 2: UNzip the downloaded file to your working Dir
+* Step 4: Reads in data from file then subsets data for specified dates
+* Step 5: Change Date Column to Date Type
+* Step 6: Filter Dates for 2007-02-01 and 2007-02-02
+* Step 7: Create PNG Device to render Plot
+* Step 8: Use Hist function to create the Plot.
+* Step 9: Close the Device always the good practice
+* Step 10: Remove the files to save up memory
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+
+![Generated PNG for Plot1](https://github.com/psramkumar/ExData_Plotting1/blob/master/plot1.png)
 
 
 ### Plot 2
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+* Step 1: Set your Project Folder as working Directory
+    * setwd(this.dir <- dirname(sys.frame(1)$ofile))
+* Step 1: Download Data from specified URL
+* Step 2: UNzip the downloaded file to your working Dir
+* Step 4: Reads in data from file then subsets data for specified dates
+* Step 5: Prevents Scientific Notation
+* Step 6: Making a POSIXct date capable of being filtered and graphed by time of day
+* Step 7: Filter Dates for 2007-02-01 and 2007-02-02
+* Step 8: Create PNG Device to render Plot
+* Step 9: Use Plot function to create the Plot.
+* Step 10: Close the Device always the good practice
+* Step 11: Remove the files to save up memory
 
+![Generated PNG for Plot2](https://github.com/psramkumar/ExData_Plotting1/blob/master/plot2.png)
 
 ### Plot 3
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+* Step 1: Set your Project Folder as working Directory
+    * setwd(this.dir <- dirname(sys.frame(1)$ofile))
+* Step 1: Download Data from specified URL
+* Step 2: UNzip the downloaded file to your working Dir
+* Step 4: Reads in data from file then subsets data for specified dates
+* Step 5: Prevents Scientific Notation
+* Step 6: Making a POSIXct date capable of being filtered and graphed by time of day
+* Step 7: Filter Dates for 2007-02-01 and 2007-02-02
+* Step 8: Create PNG Device to render Plot
+* Step 9: Use Plot function to create the Plot.
+* Step 10: Use line function to create Sub_metering_2 line with red color.
+* Step 11: Use line function to create Sub_metering_3 line with Blue color.
+* Step 12: Use legend function to create Legend on right corner with the proper Title
+* Step 13: Close the Device always the good practice
+* Step 14: Remove the files to save up memory
+
+![Generated PNG for Plot3](https://github.com/psramkumar/ExData_Plotting1/blob/master/plot3.png)
 
 
 ### Plot 4
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+ Step 1: Set your Project Folder as working Directory
+    * setwd(this.dir <- dirname(sys.frame(1)$ofile))
+* Step 1: Download Data from specified URL
+* Step 2: UNzip the downloaded file to your working Dir
+* Step 4: Reads in data from file then subsets data for specified dates
+* Step 5: Prevents Scientific Notation
+* Step 6: Making a POSIXct date capable of being filtered and graphed by time of day
+* Step 7: Filter Dates for 2007-02-01 and 2007-02-02
+* Step 8: Create PNG Device to render Plot
+* Step 9: Use [par](https://www.rdocumentation.org/packages/graphics/versions/3.4.3/topics/par) function to create Graphical Parameter with 2 by 2 matrix
+* Step 10: Use Plot function to create the first Plot for Global Active Power
+* Step 11: Use Plot function to create the second Plot for Voltage
+* Step 12: Use Plot function to create the third Plot for Energy sub metering
+* Step 12: Use Plot function to create the fourth Plot for Global Reactive Power
+* Step 13: Close the Device always the good practice
+* Step 14: Remove the files to save up memory
 
+![Generated PNG for Plot4](https://github.com/psramkumar/ExData_Plotting1/blob/master/plot4.png)
